@@ -50,3 +50,32 @@ li {
     --red-color: #ED1B24;
     --yellow-color: #FFC20F;
 }
+
+.image__landing {
+    position: relative;
+}
+
+.image__landing-img {
+    width: 100%;
+}
+
+.image__landing__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    color: white;
+    text-align: center;
+}
+
+.image__landing__content-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.image__landing__content-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+}
