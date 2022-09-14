@@ -1,0 +1,97 @@
+.header__above {
+    background-color: var(--red-color);
+}
+
+.header__above__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header__above__mail-phone {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: white;
+}
+
+.header__above__mail-phone span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header__above-icon {
+    font-size: 20px;
+}
+
+.header__above__mail,
+.header__above__phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__above__social {
+    color: white;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar__logo img {
+    max-width: 65px;
+}
+
+.navbar__logo-span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.navbar__logo-llc {
+    position: absolute;
+    top: 25%;
+    right: -25px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar__item {
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+.navbar__item:hover {
+    color: var(--yellow-color);
+}
+
+.navbar__btn {
+    color: white;
+    background-color: var(--red-color);
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    padding: 10px 20px;
+    font-weight: 500;
+}

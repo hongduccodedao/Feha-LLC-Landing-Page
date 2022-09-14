@@ -45,3 +45,8 @@ ul,
 li {
     list-style: none;
 }
+
+:root {
+    --red-color: #ED1B24;
+    --yellow-color: #FFC20F;
+}
