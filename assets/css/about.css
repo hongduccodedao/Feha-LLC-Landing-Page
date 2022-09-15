@@ -1,0 +1,102 @@
+.agency{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 43px
+}
+
+.agency__text {
+    max-width: 735px;
+    margin-left: 86px;
+}
+
+
+.FEHA {
+    margin-top: 112px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.agency__text-title, 
+.our__aim-title {
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: black;
+}
+.agency__text-description{
+    margin-top: 56px;
+    font-weight: 400;   
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #828282;
+}
+.agency__img {
+    margin-top: 112px;  
+    /* width: 445px; */
+    /* height: 418px; */
+}
+
+.our__aim{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap:50px;
+}
+
+.our__aim__img{
+    margin-top: 247px;
+}
+.our__aim__text{
+    margin-top: 247px;
+    /* margin-right: 86px; */
+    width: 100%;
+    max-width: 700px;
+}
+.content__our__aim__text{
+    /* max-width: 600px; */
+    width: 100%;
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    color: #a3a3a3;
+}
+
+.btn_Services{
+
+    margin-top: 53px;
+    padding: 10px 33px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    background-color: #FFC20F;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+}
+
+
+.out__team__title {
+   text-align: center;
+   line-height: 73px;
+}
+.out__team__comments{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 47px;
+    color: #828282;
+    text-transform: capitalize;
+    text-align: center;
+}
+.our__team__img{
+    margin-top: 93px;
+    gap: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
