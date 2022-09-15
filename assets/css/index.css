@@ -141,6 +141,10 @@ li {
     color: var(--yellow-color);
 }
 
+.navbar__item.active__item {
+    color: var(--yellow-color);
+}
+
 .navbar__btn {
     color: white;
     background-color: var(--red-color);
