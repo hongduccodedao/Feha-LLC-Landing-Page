@@ -9,6 +9,7 @@
     font: inherit;
 }
 body {
+    scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
 }
