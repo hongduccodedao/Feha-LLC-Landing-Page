@@ -92,6 +92,15 @@ li {
 
 .header__above__social {
     color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.language {
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 .navbar {

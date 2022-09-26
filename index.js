@@ -31,3 +31,16 @@ function notFound() {
 function loading() {
     window.location.href = 'loading.html';
 }
+
+// chuyển ngôn ngữ
+let langChangVN = false;
+const langToggle = document.querySelector('.language');
+
+langToggle.addEventListener("click", () => {
+    langChangVN = !langChangVN;
+    if (langChangVN) {
+        langToggle.innerHTML = "VN";
+    } else {
+        langToggle.innerHTML = "EN";
+    }
+});
